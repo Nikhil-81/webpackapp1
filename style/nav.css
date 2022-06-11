@@ -1,0 +1,47 @@
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: cadetblue;
+  padding: 20px 0;
+}
+
+.sec2 > a {
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 20px;
+  font-family: emoji;
+  color: black;
+  cursor: pointer;
+}
+a:hover {
+  font-size: 28px;
+}
+.userSearch {
+  width: 389px;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+.sec1 {
+  display: flex;
+}
+.sec1 > a {
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: emoji;
+  color: black;
+  cursor: pointer;
+}
+#box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 10px;
+}
+img.images {
+  display: block;
+  margin: auto;
+  transform: translateY(50px);
+}
